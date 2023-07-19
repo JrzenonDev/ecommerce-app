@@ -1,0 +1,41 @@
+# OSX
+.DS_Store
+
+# Dependency directories
+/node_modules
+/vendor
+/.pnp
+.pnp.js
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/Pods/Manifest.lock
+ios/*.xcworkspace
+ios/*.xcuserdatad
+
+# Android
+/android/app/build/
+/android/build/
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Bundle artifacts
+*.jsbundle
+*.bundle
+
+# Debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
